@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Harsh Nagar</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="20210216_211059.jpg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                    <h1>Harsh Nagar</h1>
+                    <p>A tech enthusiast and Computer Science graduate with a love for creating innovative web applications and data-driven solutions. Here, you’ll find my projects, achievements, and skills that highlight my journey in development and machine learning.
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="https://drive.google.com/file/d/1uje2J0IPF2KxdCisjB5ppaA-piLe9BUf/view?usp=drive_link" class="btn active" target="_blank" rel="noopener noreferrer">Download CV</a>
+                        <a href="#" class="btn">Contact</a>
+                    </div>
+
+
+                    <!-- Add Contact Section -->
+                    <div id="contact" class="contact-section">
+                        <h2>Contact Me</h2>
+                        <div class="social-buttons">
+                            <a href="mailto:nagarhaarssh@gmail.com" target="_blank" class="btn-email" title="Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="https://github.com/harshz10" target="_blank" class="btn-github" title="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/harsh-nagar-104927202" target="_blank" class="btn-linkedin" title="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+
+                 
+                 </div>
+            </div>
+        </div>
+     </div>
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontend Developer","Machine Learning Developer","Web Developer"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+</body>
+</html>
