@@ -1,5 +1,2 @@
 # project-geass
 //new
-.
-.
-.
