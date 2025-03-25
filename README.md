@@ -1,2 +1,2 @@
 # project-geass
-//new
+//new.
