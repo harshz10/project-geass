@@ -1,2 +1,5 @@
-PyPDF2
 streamlit
+PyPDF2
+sentence-transformers
+faiss-cpu
+PyMuPDF
