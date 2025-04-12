@@ -8,7 +8,7 @@ from langchain.llms import HuggingFaceHub
 import os
 
 # Set Hugging Face API token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 def extract_text(pdf):
     text = ""
