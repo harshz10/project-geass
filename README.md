@@ -1,2 +1,2 @@
 # project-geass
-//new geass
+/new geass
