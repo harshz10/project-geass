@@ -2,4 +2,3 @@
 /new geass for
 /
 /
-/
